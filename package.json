@@ -1,25 +1,46 @@
 {
   "name": "conFusion",
-  "private": true,
+  "version": "0.0.1",
+  "main": "dist/index.html",
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.goodotcom.com:namespace/project.git"
+  },
+  "authors": [
+    "Name Surname <name.surname@goodotcom.com>"
+  ],
+  "description": "My project.",
   "devDependencies": {
+    "bower": "latest",
     "browser-sync": "^2.13.0",
     "del": "^2.2.1",
+    "git-rev-sync": "latest",
     "gulp": "^3.9.1",
+    "gulp-autoprefixer": "latest",
+    "gulp-bower": "latest",
     "gulp-cache": "^0.4.5",
     "gulp-changed": "^1.3.0",
     "gulp-concat": "^2.6.0",
+    "gulp-cssnano": "latest",
     "gulp-imagemin": "^3.0.1",
     "gulp-jshint": "^2.0.1",
     "gulp-minify-css": "^1.2.4",
     "gulp-notify": "^2.2.0",
     "gulp-rename": "^1.2.2",
+    "gulp-replace": "latest",
     "gulp-rev": "^7.1.0",
+    "gulp-sass": "latest",
+    "gulp-sourcemaps": "latest",
     "gulp-uglify": "^1.5.4",
     "gulp-usemin": "^0.3.23",
+    "imagemin-pngquant": "latest",
     "jshint": "^2.9.2",
     "jshint-stylish": "^2.2.0"
   },
-  "engines": {
-    "node": ">=0.10.0"
+  "dependencies": {
+    "bower": "^1.7.9",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-bower": "0.0.13",
+    "gulp-cssnano": "^2.1.2"
   }
 }
